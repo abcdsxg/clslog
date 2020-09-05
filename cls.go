@@ -102,7 +102,6 @@ func (c *ClsClient) upload(pbData []byte) {
 		respData, _ := ioutil.ReadAll(resp.Body)
 		log.Println("response err:", string(respData))
 	}
-	log.Println("upload succeed")
 }
 
 func (c *ClsClient) watchLogs() {

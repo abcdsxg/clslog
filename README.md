@@ -8,7 +8,7 @@ package main
 import (
     "time"
 
-	"github.com/abcdsxg/clslog"
+    "github.com/abcdsxg/clslog"
     "github.com/abcdsxg/clslog/pb"
 )
 
@@ -46,7 +46,7 @@ package main
 import (
     "time"
 
-	"github.com/abcdsxg/clslog"
+    "github.com/abcdsxg/clslog"
     "github.com/abcdsxg/clslog/pb"
     "github.com/sirupsen/logrus"
     "github.com/rs/zerolog/log"
